@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -8,7 +9,7 @@
   General Style Start
 *************************/
 body{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 ul li{
   padding: 0;
@@ -17,9 +18,60 @@ ul li{
 a{
   text-decoration: none;
 }
-img{
-  max-width: 100%;
-}
+
 /************************
     General Style End
+*************************/
+/************************
+    Global Style Start
+*************************/
+.global__btn{
+  background: #1BBF00;
+  border-radius: 100px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 200%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  padding: 14px 28px;
+  border: 2px solid transparent;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+.global__btn:hover{
+  border: 2px solid #1BBF00;
+  color: #fff;
+  background: transparent;
+}
+/************************
+    Global Style End
+*************************/
+/************************
+    Navbar Start
+*************************/
+.navbar{
+  background: #160C6D;
+  width: 100%;
+  position: absolute;
+}
+.nav-link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #EFF4FA;
+}
+.nav-item {
+  padding: 0 20px;
+}
+.nav-link:hover,.nav-link:focus{
+  color: #1BBF00;
+}
+.nav__icon{
+  padding-left: 7px;
+}
+/************************
+    Navbar End
 *************************/
