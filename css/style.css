@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/************************
+  General Style Start
+*************************/
+body{
+  font-family: 'Poppins', sans-serif;
+}
+ul li{
+  padding: 0;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+/************************
+    General Style End
+*************************/
