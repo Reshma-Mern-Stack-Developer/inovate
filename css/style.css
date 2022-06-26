@@ -40,6 +40,7 @@ a{
   -moz-transition: .4s;
   -ms-transition: .4s;
   -o-transition: .4s;
+  display: inline-block;
 }
 .global__btn:hover{
   border: 2px solid #1BBF00;
@@ -53,9 +54,10 @@ a{
     Navbar Start
 *************************/
 .navbar{
-  background: #160C6D;
+  background: rgba(22, 12, 109, 0.7);
   width: 100%;
   position: absolute;
+  z-index: 98;
 }
 .nav-link {
   font-weight: 600;
@@ -74,4 +76,264 @@ a{
 }
 /************************
     Navbar End
+*************************/
+/************************
+    Banner Start
+*************************/
+.banner{
+ position: relative;
+  background: url("../img/banner.png") no-repeat center ;
+  background-size: cover;
+}
+.banner__overlay{
+  padding-top: 246px;
+  background: rgba(106, 98, 197, 0.8);
+  padding-bottom: 253px;
+}
+.banner__details{
+  text-align: center;
+}
+.banner__title {
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 100px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FAFAFE;
+  max-width: 962px;
+  margin: 0 auto;
+}
+.banner__p{
+font-weight: 500;
+font-size: 24px;
+line-height: 40px;
+color: #E6E5F3;
+max-width: 715px;
+margin: 0 auto;
+}
+.banner__btns{
+  margin-top: 56px;
+}
+.banner__dotImg {
+  position: absolute;
+  right: 310px;
+  bottom: 75px;
+}
+.banner__shape {
+  position: absolute;
+}
+.banner__shape {
+  position: absolute;
+  left: 31px;
+}
+.global__btn-ml {
+  margin-right: 30px;
+}
+/************************
+    Banner End
+*************************/
+/************************
+    Project Start
+*************************/
+.projects {
+  margin-top: -100px;
+  padding-bottom: 100px;
+  background: url("../img/project-banner.png") no-repeat;
+  background-position: top right;
+  background-size: 257px;
+}
+.project__img {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+}
+.project__details {
+  text-align: center;
+  border-right: 2px solid rgba(79, 88, 95, 0.2);
+  margin-top: 105px;
+}
+.project__details-b0 {
+  border: 0;
+}
+.project__h2 {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 68px;
+  color: #1BBF00;
+}
+.project__h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #141135;
+}
+/************************
+    Project End
+*************************/
+/************************
+    Choose Us Start
+*************************/
+.choose{
+  padding: 100px 0;
+  background: url("../img/choose-banner.png") no-repeat;
+}
+.choose__item {
+  background: #fff;
+  display: flex;
+  max-width: 568px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  margin-bottom: 15px;
+  padding: 42px 0;
+  padding-left: 26px;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+.choose__item:hover{
+  box-shadow: 10px 30px 60px rgba(162, 169, 192, 0.15);
+}
+.choose__details {
+  padding-top: 40px;
+}
+.choose__btns {
+  position: relative;
+  display: flex;
+  margin-right: 37px;
+}
+.choose__btn {
+  background: green;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.choose__btn.choose__btn-off {
+  background: #ddd;
+  position: absolute;
+  left: 50%;
+}
+.choose__p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #726E9E;
+  max-width: 362px;
+}
+.choose__h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  color: #141135;
+  margin-bottom: 24px;
+}
+.choose__P-w {
+  max-width: 402px;
+  margin-bottom: 56px;
+}
+.global__btn-p {
+  padding: 20px 40px;
+}
+.global__btn-p:hover{
+  color: #1BBF00;
+}
+/************************
+    Choose us End
+*************************/
+/************************
+    We do Start
+*************************/
+.we_do{
+  padding: 100px 0;
+  background: #F6F5FF;
+}
+.we_do__h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  color: #141135;
+  margin-bottom: 20px;
+}
+.we_do__para {
+  letter-spacing: 0.5px;
+  color: #6C7D93;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  max-width: 350px;
+  margin-bottom: 56px;
+}
+.we_do__box {
+  max-width: 410px;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 30px 60px rgba(162, 169, 192, 0.15);
+  border-radius: 20px;
+  padding: 48px 52px;
+  margin-bottom: 31px;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+.we_do__h3 {
+  color: #141135;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.we_do__p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #726E9E;
+  margin-bottom: 20px;
+}
+.we_do__btn {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #141135;
+  position: relative;
+}
+.we_do__btn:before {
+  content: "";
+  position: absolute;
+  width: 27px;
+  height: 100%;
+  right: 0;
+  background: #1BBF00;
+  opacity: 0.3;
+  border-radius: 0px 100px 100px 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.we_do__box:hover {
+  background: #6B62C5;
+}
+.we_do__box:hover .we_do__h3{
+  color: #FAFAFE;
+}
+.we_do__box:hover .we_do__p{
+  color: #E6E5F3;
+}
+.we_do__box:hover .we_do__btn{
+  color: #F4F4F5;
+}
+.we_do__box:hover .we_do__btn::before{
+  background: #FFFFFF;
+  opacity: 0.3;
+}
+/************************
+    We do End
 *************************/
