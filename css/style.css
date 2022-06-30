@@ -81,6 +81,7 @@ a{
 
 .nav-item {
   padding: 0 20px;
+  position: relative;
 }
 
 .nav-link:hover,.nav-link:focus{
@@ -89,6 +90,45 @@ a{
 
 .nav__icon{
   padding-left: 7px;
+}
+
+/* Dropdown */
+
+.nav-item:hover .nav__dropdown {
+  transform: rotatex(0deg);
+  -webkit-transform: rotatex(0deg);
+  -moz-transform: rotatex(0deg);
+  -ms-transform: rotatex(0deg);
+  -o-transform: rotatex(0deg);
+}
+
+.nav__dropdown {
+  position: absolute;
+  transition: .4s;
+  transform: rotatex(90deg);
+  transform-origin: top;
+  top: 64px;
+}
+
+.nav__dropdown_list {
+  padding-left: 0px;
+  background: #fff;
+  width: 171px;
+}
+
+.nav__dropdown_item {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #1BBF00;
+}
+
+.nav__dropdown_item {
+  border-bottom: 1px solid #000;
+  padding: 10px 19px;
+}
+.nav__dropdown_item:last-child {
+  border-bottom: 0px solid #000;
 }
 
 /************************
